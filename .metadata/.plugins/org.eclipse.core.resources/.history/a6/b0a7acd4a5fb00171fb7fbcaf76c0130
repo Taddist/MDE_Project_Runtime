@@ -1,0 +1,44 @@
+Load SQL Do 
+{
+
+	//Add Databases
+	Add Eclass EnsiasIngenieur :Database (Eattribute mysql type TypeDB) ;
+	Add Eclass EnsiasDoctorat :bt; 
+	
+	/* 
+	//Add Table + column
+	Add Eclass Cours : Table [relatedTo EnsiasIngenieur] ;
+	
+	Add Eclass name : Column [relatedTo Cours] (Eattribute true type PrimaryKey);
+	Add Eclass coeficcient : Column [relatedTo Cours];
+	
+	
+	//Add Table + column
+	Add Eclass Filiere : Table [relatedTo EnsiasIngenieur] ;
+	
+	Add Eclass id : Column [relatedTo Filiere];
+	Add Eclass name : Column [relatedTo Filiere] (Eattribute true type PrimaryKey);
+	Add Eclass nbrEleve : Column [relatedTo Filiere];
+	
+	
+	//Modify Name Database
+	Modify Eclass EnsiasDoctorat :Database newValueName EnsiasDoctorant ;
+	
+	//Modify Value of Attribute  
+	Modify Eattribute PrimaryKey from id newValueName true;
+	
+	
+	//Delete Database 
+	Delete Eclass EnsiasDoctorant ;
+	
+	//Delete Attribute
+	Delete Eattribute PrimaryKey from name 
+	 */
+	
+	
+
+ 
+	 
+	}
+	
+	

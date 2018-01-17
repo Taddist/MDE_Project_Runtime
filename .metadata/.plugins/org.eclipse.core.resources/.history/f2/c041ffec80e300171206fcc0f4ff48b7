@@ -1,0 +1,35 @@
+Load SQL Do 
+{
+
+	
+	//Add Eclass fatitest :Database;
+	//Add Eclass c1 :Database;
+	//Modify Eclass T1 :Table newValueName Table1;
+	//Modify Eclass C1 :Column newValueName Column1
+	//Delete Eclass c78 :Database ;
+	//Delete Eclass c3 :Database 
+	//Delete Eclass test :Database
+	//Delete Eclass Tabl77777 :Table ;
+	//Add Eclass tab1 : Table [relatedTo BD1   ] ( Eattribute at type string );
+	
+	//Add Eattribute postgresql from DB1 type TypeDB 
+	
+	//Add Eclass stp : Step [relatedTo Testing   ] 
+	
+	//Delete Eclass tab2 :Table [ relatedTo fatitest ]  ;
+	//Modify Eclass element3 : Column [ relatedTo tab1 ] newValueName teeeest 
+	//Delete Eclass A1 :Table [relatedTo meee]
+	//Delete Eattribute C2 ;
+	
+	//Modify Eclass C2 : Column  newValueName IWIM 
+	
+	
+	
+	
+	//Modify Eattribute TypeDB from DB1 newValueName postgreSQL
+	//Modify Eattribute PrimaryKey from C1 newValueName true 
+	Delete Eattribute PrimaryKey from C2
+	
+	}
+	
+	
